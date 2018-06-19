@@ -1,0 +1,128 @@
+.wrapper-form {
+	width: 800px;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 61px 0 69px 0;
+	background-image: linear-gradient(61deg, #ff512f, #dd2476);
+}
+
+.reg-form{
+	position: relative;
+	width: 460px;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 31px 30px 61px 30px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 1px rgba(223, 223, 223, 0.5);
+	font-family: Arial, sans-serif;
+	color: #7a7b7f;
+}
+
+.reg-form__icon {
+	position: absolute;
+	top: 27px;
+	left: 31px;
+	display: inline-block;
+	font-size: 0;
+}
+
+.reg-form__icon--img {
+	width: 23px;
+	height: 24px;
+}
+
+.reg-form__heading {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 14px;
+	margin-left: 34px;
+	font-size: 24px;
+	line-height: 0.83;
+}
+
+.reg-form__info {
+	margin: 0;
+	padding: 0;
+	width: 396px;
+}
+
+.reg-form__info--top {
+	margin-bottom: 32px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.reg-form__info--bottom {
+	font-size: 12px;
+	line-height: 1.7;
+}
+
+.link-form {
+	color: #ea355a;
+	text-decoration: none;
+}
+
+.fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 0;
+}
+
+.fieldset__user-data {
+	margin-bottom: 15px;
+}
+
+.user-data {
+	height: 40px;
+	padding-top: 14px;
+	padding-left: 14px;
+	box-sizing: border-box;
+	background-color: #f0f0f0;
+	border: none;
+	border-radius: 2px;
+	font-size: 14px;
+}
+
+.user-data__first-name {
+	width: 193px;
+	margin-right: 14px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.user-data__last-name {
+	width: 193px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.user-data__email {
+	width: 400px;
+	margin-bottom: 15px;
+	padding-bottom: 16px;
+}
+
+.user-data__password {
+	width: 400px;
+	padding-bottom: 16px;
+}
+
+.send-data__btn {
+	width: 400px;
+	height: 50px;
+	padding-top: 17px;
+	padding-bottom: 12px;
+	background-color: #ea355a;
+	border: none;
+	border-radius: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	box-shadow: 0 3px 0 0 #bd1962;
+}
+
+.fieldset__send-data {
+	margin-bottom: 20px;
+}
